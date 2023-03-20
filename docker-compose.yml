@@ -8,6 +8,7 @@ networks:
 
 services:
   janus-gateway:
+    user: root
     image: mcroth/docker-janus:latest 
     container_name: janus-gateway
     volumes:
